@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>task0002</title>
+	<script type="text/javascript">
+		window.onunload = onunload_message;
+		function onunload_message() {
+			alert("您确定离开该网页吗？");
+			// body...
+		}
+	</script>
 </head>
 <body>
-	
+	<input type="text" id="number1">
+	<input type="text" id="number2">
+	<span id="result"></span>
+	<button id="addbtn"></button>
+	<script type="text/javascript" src="util.js"></script>
 </body>
 </html>
